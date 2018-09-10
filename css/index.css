@@ -1,5 +1,99 @@
 body {
-    width: auto;
-    height: auto;
-    color: blue;
+    background-color: white;
+}
+
+h1 {
+    color: white;
+}
+
+.c1 {
+    height: 20px;
+    width: 1340px;
+    background-color: gold;
+    border: 2px solid white;
+    margin-top: 20px;
+    margin-left: 0px;
+    padding: 18px 15px 15px 15px;
+
+}
+
+.a1 {
+    margin-right: 50px;
+    margin-left: 50px;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 8px 20px 8px 20px;
+}
+
+.c2 {
+    margin-top: -10px;
+    background-color: black;
+    color: white;
+    height: 20px;
+    width: 150px;
+    margin-right: 50px;
+    float: right;
+    text-align: center;
+    padding: 8px 10px 8px 10px;
+    font-size: 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.a2 {
+    color: white;
+}
+
+.c3 {
+    width: 350px;
+    height: 300px;
+    background-color: gold;
+    margin-top: 100px;
+    margin-left: 480px;
+    text-align: center;
+    padding: 50px;
+    line-height: 30px;
+    position: relative;
+
+}
+
+.round {
+    background: radial-gradient(circle at 0 100%, rgb(255, 255, 255) 60px, #FFD700 25px),
+    radial-gradient(circle at 100% 100%, rgb(255, 255, 255) 60px, #FFD700 25px),
+    radial-gradient(circle at 100% 0, rgb(255, 255, 255) 60px, #FFD700 25px),
+    radial-gradient(circle at 0 0, rgb(255, 255, 255) 60px, #FFD700 25px);
+
+    background-position: bottom left, bottom right, top right, top left;
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+
+    padding: 14px;
+}
+
+
+
+
+h3 {
+    margin-top: 20px;
+}
+
+.i1 {
+    background-color: gold;
+    border: none;
+    border-bottom: 1px solid black;
+    width: 100px;
+}
+
+.b1 {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px 10px 15px;
+    margin-top: 20px
 }
