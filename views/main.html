@@ -1,1 +1,13 @@
-<h1> This is the Home Page</h1>
+<div style="margin-left: 280px" class="container" ng-controller="CarouselCtrl">
+    <div class="offsetspan6">
+        <carousel interval="myInterval">
+            <slide ng-repeat="slide in slides" active="slide.active">
+                <img width="700" height="800" class="image-circle" ng-src="{{slide.image}}" />
+                <div class="carousel-caption">
+                    <!--<h4>Slide {{$index}}</h4>-->
+                    <p>{{slide.text}}</p>
+                </div>
+            </slide>
+        </carousel>
+    </div>
+</div>

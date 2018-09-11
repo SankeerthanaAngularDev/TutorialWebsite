@@ -6,12 +6,11 @@
     <title>Page Title</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="initial-scale=1.0">
-    <link rel="stylesheet" href="css/index.css">
+
 
 </head>
 
-<body ng-app="myApp">
-
+<body id="bootstrap-overrides" ng-app="myApp">
     <div class="c1">
         <nav>
             <a class="a1" href="#!Home">Home</a>
@@ -29,6 +28,11 @@
     <div ng-view></div>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+    <script src="http://angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.6.0.js">
+    </script>
+    <link href="https://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/index.css">
     <script src="js/app.js"></script>
 
 </body>
