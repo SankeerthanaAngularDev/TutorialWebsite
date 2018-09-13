@@ -9,7 +9,7 @@ app.controller("LoginCntrl", function ($scope) {
 app.controller("CarouselCtrl", function ($scope) {
 
     // initializing the time Interval
-    $scope.myInterval = 5000;
+    $scope.myInterval = 3000;
 
     // Initializing  slide rray
     $scope.slides = [
